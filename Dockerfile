@@ -11,7 +11,7 @@
 #   sudo docker run -it -p 8080:8080 spiderfoot
 
 # Pull the base image.
-FROM arm64v8/ubuntu
+FROM arm64v8/ubuntu:latest
 
 # Install pre-requisites.
 RUN apt-get update && apt-get install -y \
