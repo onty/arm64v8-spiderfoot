@@ -1,5 +1,6 @@
 [![](https://images.microbadger.com/badges/version/onty/arm64v8-spiderfoot.svg)](https://microbadger.com/images/onty/arm64v8-spiderfoot "Get your own version badge on microbadger.com")
 [![](https://images.microbadger.com/badges/image/onty/arm64v8-spiderfoot.svg)](https://microbadger.com/images/onty/arm64v8-spiderfoot "Get your own image badge on microbadger.com")
+[![Docker Stars](https://img.shields.io/docker/stars/onty/arm64v8-spiderfoot.svg?style=flat-square)](https://hub.docker.com/r/onty/arm64v8-spiderfoot/) [![Docker Pulls](https://img.shields.io/docker/pulls/onty/arm64v8-spiderfoot.svg?style=flat-square)](https://hub.docker.com/r/onty/arm64v8-spiderfoot/)
 
 ----------------------------------------
 #### Description
