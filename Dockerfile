@@ -9,7 +9,11 @@
 #
 #   sudo docker build -t spiderfoot .
 #   sudo docker run -it -p 8080:8080 spiderfoot
-
+# 
+# @Lintang Jati 
+# 	Build adapted and executed on arm64 machine (pine64)
+# 
+# 
 # Pull the base image.
 FROM arm64v8/ubuntu:latest
 
@@ -34,6 +38,7 @@ RUN apt-get update && apt-get install -y \
 RUN rm -rf /var/lib/apt/lists/* \
   && cd /usr/include/openssl/ \
   && ln -s ../x86_64-linux-gnu/openssl/opensslconf.h . \
+  && pip install --upgrade pip \
   && pip install cherrypy lxml mako netaddr
 
 # Create a dedicated/non-privileged user to run the app.
